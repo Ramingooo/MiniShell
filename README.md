@@ -27,38 +27,28 @@ A high-fidelity Unix terminal emulator built with **React** and **Tailwind CSS**
 - **Icons:** Lucide React
 - **Deployment:** GitHub Pages
 
-## 🚀 Getting Started
+## 📂 Pure C Source Code
 
-### Installation
+The actual Unix-ready C source code is located in the `c-source/` directory. Unlike the web version (which is a simulation), this code is designed to be compiled and run on a real Linux or macOS system.
 
-```bash
-# Clone the repository
-git clone https://github.com/Ramingooo/minishell-web.git
+### How to Compile the Real C Code:
 
-# Navigate to the project directory
-cd minishell-web
+1.  **Navigate to the C source directory:**
+    ```bash
+    cd c-source
+    ```
+2.  **Compile using the provided Makefile:**
+    ```bash
+    make
+    ```
+3.  **Run the actual Minishell binary:**
+    ```bash
+    ./minishell
+    ```
 
-# Install dependencies
-npm install
-```
+## ⌨️ Web Terminal Examples
 
-### Development
-
-```bash
-# Start the development server
-npm run dev
-```
-
-### Deployment
-
-```bash
-# Build and deploy to GitHub Pages
-npm run deploy
-```
-
-## ⌨️ Command Examples
-
-Try these inside the terminal:
+Try these inside the browser terminal at [https://ramingooo.github.io/MiniShell/](https://ramingooo.github.io/MiniShell/):
 
 ```bash
 ramingooo@shell:~$ ls
